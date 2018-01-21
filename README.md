@@ -20,5 +20,5 @@ pip3 install rshell
 ### Copy files to the board 
 
 ```
-rshell -p /dev/ttyUSB0 -b 115200 --buffer-size=32 cp boot.py config.py main.py config.json /pyboard/
+rshell -p /dev/ttyUSB0 -b 115200 --buffer-size=32 cp src/boot.py src/config.py src/main.py src/config.json /pyboard/
 ```
